@@ -1,21 +1,21 @@
-# 🔩 Physics-Informed Surrogate Modelling for Dissimilar FSW
+# Physics-Informed Surrogate Modelling for Dissimilar FSW
 
 ### Process–Structure–Property Design Space via Gaussian Process Regression
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-GPR-f89939?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Active%20Research-blueviolet)](.)
 [![Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
-> **Note:** This notebook presents the methodology and analytical framework for an ongoing research project. All numerical demonstrations use representative FSW trial data to match the physical characteristics of the problem. Full experimental results are withheld pending publication.
+> **Note:** This notebook presents the methodology and analytical framework for an ongoing research project. All numerical demonstrations use representative FSW trial data to match the physical characteristics of the problem.
 
 ---
 
 ## 📌 Overview
 
-This project develops a **physics-informed, uncertainty-aware surrogate model** for dissimilar material Friction Stir Welding (FSW) — specifically the Al–Steel system. Rather than treating the process as a black box, the work encodes established physical mechanisms directly into the modelling pipeline.
+This project develops a **physics-informed, uncertainty-aware GPR surrogate model** for dissimilar material Friction Stir Welding (FSW). Rather than treating the process as a black box, the work encodes established physical mechanisms directly into the modelling pipeline.
 
 The central hypothesis is the **Process → Structure → Property (PSP) linkage**:
 
